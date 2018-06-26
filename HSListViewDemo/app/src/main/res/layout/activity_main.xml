@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/item" />
+
+    <demo.hslistviewdemo.view.HVListView
+        android:id="@+id/list"
+        android:layout_width="1400.0dip"
+        android:layout_height="fill_parent"
+        android:cacheColorHint="@null"
+        android:fastScrollEnabled="true"></demo.hslistviewdemo.view.HVListView>
+</LinearLayout>
